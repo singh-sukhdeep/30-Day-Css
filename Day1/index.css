@@ -1,0 +1,9 @@
+.wrapper{
+    background-color: pink;
+    padding: 2rem;
+    border: 1rem solid green;
+    margin: 2rem;
+    outline: grey solid 2rem;
+    box-sizing: border-box;
+    width: 200px;
+}
