@@ -1,5 +1,5 @@
 
-## BOX MODEL
+# BOX MODEL
 ### Everything displayed by CSS is a box.Understanding how the CSS Box Model works is therefore a core foundation of CSS.
 
 Extrinsic sizing vs intrinsic sizing
@@ -34,3 +34,62 @@ When content is too big for the box it is in, we call this overflow. You can man
 
 
 ```
+
+
+# Selectors
+### CSS Selectors
+
+
+### Type Selector
+
+Matches HTML element directyl
+
+```
+p{
+    background:pink;
+}
+
+```
+
+### Class Selector
+
+```
+.test-class{
+    font-size: 2rem;
+}
+
+```
+
+
+### ID Selector
+
+```
+
+#id1{
+    background-color:red;
+}
+
+```
+
+```
+/* A href that contains "example.com" */
+[href*='example.com'] {
+  color: red;
+}
+
+/* A href that starts with https */
+[href^='https'] {
+  color: green;
+}
+
+/* A href that ends with .com */
+[href$='.com'] {
+  color: blue;
+}
+
+```
+
+
+# Sizing Units
+
+##
