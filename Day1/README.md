@@ -24,3 +24,13 @@ When content is too big for the box it is in, we call this overflow. You can man
 
  Box Sizing : content+padding+border== extrinsic sizing
  padding and border will try to push the content width to adjust
+
+```
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+```
